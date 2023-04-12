@@ -8,8 +8,9 @@ Python integration for OrangeData service
 
 ##### Использование:
 * создать объект класса `OrangeDataClient`
+
 ```python
-from client import OrangeDataClient
+from OrangeData.client import OrangeDataClient
 
 params = {
     'inn': '3123011520',

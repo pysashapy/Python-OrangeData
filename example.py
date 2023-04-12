@@ -1,7 +1,7 @@
 from datetime import datetime
 from decimal import Decimal
 
-from client import OrangeDataClient
+from OrangeData.client import OrangeDataClient
 
 
 def main():
