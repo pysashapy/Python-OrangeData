@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='Python-OrangeData',
     version='0.0.1',
-    packages=['OrangeData'],
+    packages=find_packages(),
     url='',
     license='',
     author='pysashapy',
