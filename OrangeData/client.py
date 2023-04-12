@@ -9,7 +9,7 @@ from Crypto.Hash import SHA256
 from Crypto.PublicKey import RSA
 from Crypto.Signature import pkcs1_15
 
-from validators import phone_is_valid, length_is_valid
+from .validators import phone_is_valid, length_is_valid
 
 
 class OrangeDataClientValidationError(Exception):
